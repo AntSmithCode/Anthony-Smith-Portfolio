@@ -1,0 +1,27 @@
+{
+  "name": "Anthony-Smith-Portfolio",
+  "version": "1.0.0",
+  "description": "Anthony Smith Live Portfolio Website",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntSmithCode/Anthony-Smith-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntSmithCode/Anthony-Smith-Portfolio/issues"
+  },
+  "homepage": "https://github.com/AntSmithCode/Anthony-Smith-Portfolio#readme",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "post-cli": "^1.0.5",
+    "postcss-cli": "^8.3.1",
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^2.0.2"
+  }
+}
